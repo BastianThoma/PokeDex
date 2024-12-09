@@ -1,6 +1,10 @@
 body {
     margin: 0;
     font-family: "Madimi One", sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(img/PokedexBackground2.jpeg);
 }
 
 #pokemon-card {
@@ -91,6 +95,7 @@ body {
     color: #000000;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
+    height: 1500px;
     margin-top: -40px;
     display: flex;
     flex-direction: column;
@@ -108,8 +113,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-size: cover;
-    background-image: url(img/PokedexBackground2.jpeg);
 }
 
 .overview-container {

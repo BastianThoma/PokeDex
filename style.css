@@ -1,10 +1,15 @@
 body {
     margin: 0;
     font-family: "Madimi One", sans-serif;
+}
+
+#main-page {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(img/PokedexBackground2.jpeg);
+    height: 100vh;
+    overflow-y: scroll;
 }
 
 #pokemon-card {

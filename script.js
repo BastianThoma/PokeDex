@@ -1,7 +1,7 @@
 let globalURL = "https://pokeapi.co/api/v2/";
 let statvalues = [];
 let allPokemonNames = [];
-let maxPokemon = 20;
+let maxPokemon = 10;
 let minPokemon = 1;
 
 function init() {
@@ -182,8 +182,8 @@ function previousPokemon() {
 }
 
 function loadMore() {
-  minPokemon = minPokemon + 20;
-  maxPokemon = maxPokemon + 20;
+  minPokemon = minPokemon + 10;
+  maxPokemon = maxPokemon + 10;
   loadPokemonOverview();
 }
 
